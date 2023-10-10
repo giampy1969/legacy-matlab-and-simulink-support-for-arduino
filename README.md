@@ -1,6 +1,8 @@
 # legacy-matlab-and-simulink-support-for-arduino
 MATLAB&reg; class and Simulink&reg; blocks for communicating with an Arduino board
 
+[![View legacy-matlab-and-simulink-support-for-arduino on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/32374-legacy-matlab-and-simulink-support-for-arduino)
+
 NOTE: This solution (formerly known as "Arduino IO Package") is no longer supported. 
 It is recommended that you use Arduino support packages that are developed and supported by MathWorks:
 
