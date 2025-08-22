@@ -1,8 +1,7 @@
 # legacy-matlab-and-simulink-support-for-arduino
-
-NOTE #1: THIS PACKAGE (formerly known as "Arduino IO Package") IS NO LONGER SUPPORTED!
 MATLAB&reg; class and Simulink&reg; blocks for communicating with an Arduino board
 
+NOTE #1: THIS PACKAGE (formerly known as "Arduino IO Package") IS NO LONGER SUPPORTED!
 Instead of this package, use one of the OFFICIAL Arduino support packages that are developed and supported by MathWorks:
 - MATLAB Support Package for Arduino Hardware: Interactively read, write, and analyze data from Arduino sensors
 http://www.mathworks.com/hardware-support/arduino-matlab.html
