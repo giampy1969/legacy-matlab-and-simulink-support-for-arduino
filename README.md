@@ -1,8 +1,8 @@
 # legacy-matlab-and-simulink-support-for-arduino
-MATLAB&reg; class and Simulink&reg; blocks for communicating with an Arduino board
+Legacy (unsupported) MATLAB&reg; class and Simulink&reg; blocks for communicating with an Arduino board
 
-NOTE #1: THIS PACKAGE (formerly known as "Arduino IO Package") IS NO LONGER SUPPORTED!
-Instead of this package, use one of the OFFICIAL Arduino support packages that are developed and supported by MathWorks:
+**NOTE #1:** THIS PACKAGE (formerly known as "Arduino IO Package") IS **NO LONGER SUPPORTED**!
+Instead of this package, **use one of the OFFICIAL Arduino support packages** that are developed and supported by MathWorks:
 - MATLAB Support Package for Arduino Hardware: Interactively read, write, and analyze data from Arduino sensors
 http://www.mathworks.com/hardware-support/arduino-matlab.html
 - Simulink Support Package for Arduino Hardware: Develop algorithms that run standalone on your Arduino
@@ -13,7 +13,7 @@ Typically this is when one of the following is true:
 - You are using MATLAB R2013b or earlier (but not earlier than R2011a).
 - You are using unsupported Arduino clones which you have verified that do not work with the official packages.
 
-NOTE #2: (REMINDER): YOU CANNOT, ABSOLUTELY CANNOT, BUILD ANY EXECUTABLE FROM A SIMULINK MODEL WITH THIS PACKAGE!!
+**NOTE #2:** (REMINDER): **YOU CANNOT, ABSOLUTELY CANNOT, BUILD ANY EXECUTABLE FROM A SIMULINK MODEL WITH THIS PACKAGE**!!
 Attempting to do so will result in an ERROR saying that msfun_arduino_io_setup.tlc does not exist.
 This happens bacause this package is a TETHERED-ONLY solution in which a MATLAB object exchanges messages with a pre-compiled Arduino Script.
 If you want to do build executables from Simulink models you need to use the official Simulink support package for Arduino.
